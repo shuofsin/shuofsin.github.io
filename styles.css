@@ -2,48 +2,52 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.sidenav{
-    height: 100%;
-    width: 180px;
+.sidenav {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
     position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #000000;
-    display: block;
+    height: 100%;
+    overflow: auto;
 }
   
-.sidenav a:hover {
-    color: #818181;
+.sidenav a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
 }
-
+   
+.sidenav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+  
+.sidenav a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+  
+.main {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+  
 @media screen and (max-width: 700px) {
     .sidenav {
         width: 100%;
         height: auto;
-        position: absolute;
+        position: relative;
     }
     .sidenav a {float: left;}
     .main {margin-left: 0;}
 }
-
+  
 @media screen and (max-width: 400px) {
-    .sidebar a {
+    .sidenav a {
         text-align: center;
         float: none;
     }
-}
-
-.main {
-    margin-left: 180px; 
-    font-size: 28px; 
-    padding: 0px 10px;
 }

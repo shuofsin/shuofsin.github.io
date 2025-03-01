@@ -30,20 +30,3 @@ body {
 .sidenav a:hover {
     color: #818181;
 }
-
-@media screen and (max-width: 700px) {
-    .sidenav {
-        width: 100%;
-        height: auto;
-        position: absolute;
-    }
-    .sidenav a {float: left;}
-    .main {margin-left: 0;}
-}
-
-@media screen and (max-width: 400px) {
-    .sidenav a {
-        text-align: center;
-        float: none;
-    }
-}

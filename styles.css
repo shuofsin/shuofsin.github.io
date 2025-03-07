@@ -1,5 +1,8 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* sidebar stuff */
@@ -7,6 +10,7 @@ body {
     margin-left: 180px; 
     font-size: 28px; 
     padding: 0px 10px;
+    flex-grow: 1;
 }
 
 .sidenav {
@@ -51,7 +55,7 @@ body {
 
 /* Footer */
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;

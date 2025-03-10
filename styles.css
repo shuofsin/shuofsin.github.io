@@ -1,8 +1,13 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        height: 100vh; 
+    }
 }
 
 /* sidebar stuff */

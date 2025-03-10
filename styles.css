@@ -4,6 +4,10 @@ body {
     flex-direction: column;
 }
 
+#div-mobile {
+    display: none;
+}
+
 @media screen and (min-width: 700px) {
     body {
         height: 100vh; 
@@ -55,6 +59,15 @@ body {
     .sidenav a {
         text-align: center;
         float: none;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.7em;
+    }
+
+    #div-mobile {
+        display: block;
     }
 }
 

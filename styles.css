@@ -2,17 +2,17 @@ body {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
-    background-color: #fffaf6;
-    color: #12161f    
+    background-color: #e8eff9;
+    color: #001123    
 }
 
 a:link {
-    color: #4c611c;
+    color: #5a6753;
     text-decoration: none;
 }
 
 a:visited {
-    color: #1d241c;
+    color: #1a2922;
     text-decoration: none;
 }
 
@@ -57,12 +57,12 @@ a:active {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #12161f;
+    color: #001123;
     display: block;
 }
 
 .sidenav a:hover {
-    color: #525367;
+    color: #6a8097;
 }
 
 @media screen and (max-width: 700px) {

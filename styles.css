@@ -2,25 +2,25 @@ body {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
-    background-color: #e8eff9;
-    color: #001123    
+    background-color: #fffaf6;
+    color: #12161f    
 }
 
-body a:link {
-    color: #5a6753;
+.body a:link {
+    color: #4c611c;
     text-decoration: none;
 }
 
-body a:visited {
-    color: #1a2922;
+.body a:visited {
+    color: #1d241c;
     text-decoration: none;
 }
 
-body a:hover {
+.body a:hover {
     text-decoration: underline;
 }
 
-body a:active {
+.body a:active {
     text-decoration: underline;
 }
 
@@ -57,12 +57,12 @@ body a:active {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #001123;
+    color: #12161f;
     display: block;
 }
 
 .sidenav a:hover {
-    color: #6b8093;
+    color: #525367;
 }
 
 @media screen and (max-width: 700px) {
